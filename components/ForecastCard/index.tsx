@@ -7,10 +7,11 @@ const ForecastCard = () => {
         <div className="absolute top-0 hover:-translate-y-3 left-0 flex flex-col items-center w-[400px] bg-purple-100 bg-gradient-to-tl hover:from-blue-950 rounded-2xl p-5 group transition ease-in-out duration-300">
             <Image
                 src="https://wecast.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcloud.50287a67.png&w=256&q=75"
-                width={500}
-                height={500}
-                alt=""
-                className="w-full max-w-[250px]"
+                width={256}
+                height={75}
+                priority
+                alt="Weather icon"
+                className="w-full max-w-[256px] h-auto"
             />
             <div>
                 <div className="bg-purple-800 text-white font-bold uppercase px-4 py-2 rounded-3xl">
