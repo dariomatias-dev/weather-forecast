@@ -11,16 +11,10 @@
 
 <ul>
   <li>
-    Tela inicial com os filmes melhores classificados;
+    Seção para pesquisa;
   </li>
   <li>
-    Input para pesquisar por filmes;
-  </li>
-  <li>
-    Página com informações a respeito do filme escolhido;
-  </li>
-  <li>
-    Paginação dos resultados.
+    Card com as informações sobre a previsão do tempo para a cidade digitada;
   </li>
 </ul>
 
