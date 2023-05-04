@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
-      'wecast.vercel.app',
+      'openweathermap.org'
     ],
   },
 }
