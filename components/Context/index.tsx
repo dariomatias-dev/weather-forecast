@@ -42,8 +42,6 @@ export const DataProvider = ({ children }: DataProviderProps) => {
         searchForecast(initialForecast);
     }, []);
 
-    if (JSON.stringify(forecast) === "{}") return;
-
     return (
         <DataContext.Provider
             value={{ forecast, searchForecast, errorMessage, showErrorMessage }}
