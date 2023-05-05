@@ -46,6 +46,7 @@ const Search = () => {
                         <input
                             type="text"
                             placeholder="Ex.: Areial"
+                            value={query}
                             onChange={(e) => setQuery(e.target.value)}
                             onKeyUp={(e) => checkKeyPressed(e)}
                             className="w-full max-w-[500px] h-[55px] bg-white text-black border-2 border-purple-700 hover:border-purple-900 focus:border-purple-900 rounded-xl pl-2 outline-none"
